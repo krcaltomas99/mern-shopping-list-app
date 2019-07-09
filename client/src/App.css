@@ -1,0 +1,35 @@
+.fade {
+
+}
+
+.fade-enter {
+	opacity: 0.03;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: 250ms ease-in;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0.03;
+	transition: 250ms ease-in;
+}
+
+.loading {
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
